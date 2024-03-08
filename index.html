@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Candidate Application Form" />
+    <link rel="apple-touch-icon" href="" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Application Form</title>
+  </head>
+  <body>
+    <div class="container">
+
+
+    <section class="">
+      <header class="header">
+        <h1>Company-Confidential</h1>
+        <h2>Candidate Application Form - Offshore</h2>
+        <h3>RMG-TAG-V.3</h3>
+      </header>
+
+      <div class="main flex">
+        <div class="company-info">
+          <h1>Tech Mahindra Limited</h1>
+
+          <p>Registered Office: Gateway Building, Apollo Bunder,</p>
+          <p>Mumbai 400001, India</p>
+          <p><a href="www.techmahindra.com">www.techmahindra.com</a></p>
+          <p>
+            <a href="mailto:connect@techmahindra.com"
+              >connect@techmahindra.com</a
+            >
+          </p>
+        </div>
+        <div class="passport-size">
+          <div class="inner-border">
+            <p>Passport-size Photograph here</p>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="application">
+      <h2>Application for Employment</h2>
+      <div class="application-form">
+        <div class="form-group flex">
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="first_name" />
+          <label for="middle_name">Middle Name:</label>
+          <input type="text" id="middle_name" name="middle_name" />
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name" name="last_name" />
+        </div>
+        <div class="form-group flex">
+          <label for="father_name">Name of Father:</label>
+          <input type="text" id="father_name" name="father_name" />
+          <label for="mother_name">Name of Mother:</label>
+          <input type="text" id="mother_name" name="mother_name" />
+        </div>
+        <div class="form-group flex">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" />
+          <label for="place_of_birth">Place of Birth:</label>
+          <input type="text" id="place_of_birth" name="place_of_birth" />
+        </div>
+        <div class="form-group flex">
+          <label for="marital_status">Marital Status:</label>
+          <select id="marital_status" name="marital_status">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+          </select>
+          <label for="nationality">Nationality:</label>
+          <input type="text" id="nationality" name="nationality" />
+        </div>
+
+        <div class="form-group flex">
+          <label for="passport_no">Passport (PP) No:</label>
+          <input type="text" id="passport_no" name="passport_no" />
+          <label for="place_of_pp_issue">Place of PP Issue:</label>
+          <input type="text" id="place_of_pp_issue" name="place_of_pp_issue" />
+          <label for="dt_of_pp_issue">Dt. of PP Issue:</label>
+          <input type="text" id="dt_of_pp_issue" name="dt_of_pp_issue" />
+        </div>
+
+        <div class="form-group flex">
+          <label for="dt_of_pp_expiry">Dt. of PP Expiry:</label>
+          <input type="text" id="dt_of_pp_expiry" name="dt_of_pp_expiry" />
+          <label for="applied_for_pp">Have you applied for a valid PP?</label>
+          <input type="checkbox" id="applied_for_pp" name="applied_for_pp" />
+        </div>
+        <div class="form-group flex">
+          <label for="application_no">Application No:</label>
+          <input type="text" id="application_no" name="application_no" />
+          <label for="dt_of_application">Dt. of Application:</label>
+          <input type="text" id="dt_of_application" name="dt_of_application" />
+          <label for="aadhar_card_no">Aadhar Card No:</label>
+          <input type="text" id="aadhar_card_no" name="aadhar_card_no" />
+        </div>
+        <div class="form-group flex">
+          <label for="uan">Universal Account Number (UAN-12 Digit):</label>
+          <input type="text" id="uan" name="uan" />
+          <label for="visa_denied"
+            >Have you ever been refused/denied visa any time?</label
+          >
+          <input type="checkbox" id="visa_denied" name="visa_denied" />
+        </div>
+        <div class="form-group flex">
+          <label for="visa_details">If visa denied, give details:</label>
+          <table id="visa_table" class="visa-table">
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Type of Visa</th>
+                <th>Reason of Refusal/Denial</th>
+                <th>When Denied (date)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="text" name="country[]" /></td>
+                <td><input type="text" name="type_of_visa[]" /></td>
+                <td><input type="text" name="reason[]" /></td>
+                <td><input type="date" name="date[]" /></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="country[]" /></td>
+                <td><input type="text" name="type_of_visa[]" /></td>
+                <td><input type="text" name="reason[]" /></td>
+                <td><input type="date" name="date[]" /></td>
+              </tr>
+            </tbody>
+          </table>
+          <label for="present_address">Present Address:</label>
+          <input type="text" id="present_address" name="present_address" />
+        </div>
+        <div class="form-group">
+          <label for="landline_tel">Landline Tel:</label>
+          <input type="text" id="landline_tel" name="landline_tel" />
+          <label for="mobile_no">Mobile No:</label>
+          <input type="text" id="mobile_no" name="mobile_no" />
+          <label for="pin_code">Pin:</label>
+          <input type="text" id="pin_code" name="pin_code" />
+        </div>
+        <div class="form-group">
+          <label for="res_tel">Res. Tel:</label>
+          <input type="text" id="res_tel" name="res_tel" />
+        </div>
+        <div class="form-group">
+          <label for="mobile_no">Mobile No:</label>
+          <input type="text" id="mobile_no" name="mobile_no" />
+        </div>
+        <div class="form-group">
+          <label for="email_primary">E-mail (Primary):</label>
+          <input type="email" id="email_primary" name="email_primary" />
+        </div>
+        <div class="form-group">
+          <label for="email_secondary">E-mail (Secondary):</label>
+          <input type="email" id="email_secondary" name="email_secondary" />
+        </div>
+        <div class="form-group">
+          <label for="signature">Signature of Applicant:</label>
+          <input type="text" id="signature" name="signature" />
+        </div>
+        <div class="form-group">
+          <label for="relative_working"
+            >Do you have any relative(s) working with any of the Mahindra Group
+            Companies including Tech Mahindra)?</label
+          >
+          <input
+            type="checkbox"
+            id="relative_working"
+            name="relative_working"
+          />
+        </div>
+        <div class="form-group">
+          <label for="relative_name_1">Name of Relative:</label>
+          <input type="text" id="relative_name_1" name="relative_name_1" />
+          <label for="relationship_1">Relationship:</label>
+          <input type="text" id="relationship_1" name="relationship_1" />
+          <label for="company_1">Name of Company:</label>
+          <input type="text" id="company_1" name="company_1" />
+        </div>
+        <div class="form-group">
+          <label for="relative_name_2">Name of Relative:</label>
+          <input type="text" id="relative_name_2" name="relative_name_2" />
+          <label for="relationship_2">Relationship:</label>
+          <input type="text" id="relationship_2" name="relationship_2" />
+          <label for="company_2">Name of Company:</label>
+          <input type="text" id="company_2" name="company_2" />
+        </div>
+        <div class="form-group">
+          <label for="education_details"
+            >Education Details (Only those done through Govt recognized
+            institutes/universities)</label
+          >
+          <table id="education_table" class="visa-table">
+            <thead>
+              <tr>
+                <th>College/ University (with Location)</th>
+                <th>Name of Degree/ Level</th>
+                <th>Duration (MM/YY) From</th>
+                <th>Duration (MM/YY) To</th>
+                <th>Specialization</th>
+                <th>Percentage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input type="text" name="college_university[]" /></td>
+                <td><input type="text" name="degree_level[]" /></td>
+                <td><input type="month" name="duration_from[]" /></td>
+                <td><input type="month" name="duration_to[]" /></td>
+                <td><input type="text" name="specialization[]" /></td>
+                <td><input type="text" name="percentage[]" /></td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="button" id="add_row">Add Row</button>
+        </div>
+        <div class="form-group">
+            <label for="language_details">Languages (Indian & Foreign)</label>
+            <table id="language_table" class="visa-table">
+                <thead>
+                    <tr>
+                        <th>Sl. No.</th>
+                        <th>Language</th>
+                        <th>Speak</th>
+                        <th>Read</th>
+                        <th>Write</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>English</td>
+                        <td><input type="checkbox" name="speak_english"></td>
+                        <td><input type="checkbox" name="read_english"></td>
+                        <td><input type="checkbox" name="write_english"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Hindi</td>
+                        <td><input type="checkbox" name="speak_hindi"></td>
+                        <td><input type="checkbox" name="read_hindi"></td>
+                        <td><input type="checkbox" name="write_hindi"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Telugu</td>
+                        <td><input type="checkbox" name="speak_telugu"></td>
+                        <td><input type="checkbox" name="read_telugu"></td>
+                        <td><input type="checkbox" name="write_telugu"></td>
+                    </tr>
+                  
+                </tbody>
+            </table>
+        </div>
+      </div>
+    </section>
+    <section>
+        <div id="componentContainer"></div>
+    </section>
+</div>
+    <script src="index.js"></script>
+  </body>
+</html>
